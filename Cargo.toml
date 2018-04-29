@@ -3,4 +3,12 @@ name = "com_rust"
 version = "0.1.0"
 authors = ["M <cseghrce@gmail.com>"]
 
+[lib]
+name = "mlib"
+path = "src/m-lib/lib.rs"
+
+[[bin]]
+name = "comrust"
+path = "src/main.rs"
+
 [dependencies]
